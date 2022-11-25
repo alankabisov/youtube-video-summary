@@ -1,3 +1,4 @@
+pytorch
 transformers
 youtube_transcript_api
 tqdm
