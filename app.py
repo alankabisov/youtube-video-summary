@@ -156,8 +156,8 @@ if __name__ == "__main__":
 
     st.title('YouTube Video Summary 📃')
     st.markdown('Creates summary for given YouTube video URL based on transcripts.')
-    st.code('https://www.youtube.com/watch?v=skl4OXNA12U')
-    st.code('https://youtu.be/1wkPMUZ9vX4')
+    st.code('https://www.youtube.com/watch?v=1wkPMUZ9vX4')
+    st.code('https://youtu.be/zb9l63Nm9zU')
 
     col1, col2 = st.columns(2)
 
