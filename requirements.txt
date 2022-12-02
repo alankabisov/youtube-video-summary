@@ -3,4 +3,4 @@ transformers
 youtube_transcript_api
 tqdm
 stqdm
-streamlit
+streamlit==1.15.1
