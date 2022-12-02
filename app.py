@@ -144,7 +144,7 @@ def process_click_callback():
     summary = generate_summary(subtitles)
 
     st.session_state.summary_output = summary
-    st.success('Processing complete!', icon="✅")
+    st.success('Processing complete! ✅')
 
     is_processing = False
 
@@ -161,10 +161,10 @@ if __name__ == "__main__":
     col1, col2 = st.columns(2)
 
     with col1:
-        video_url_inp = st.text_input('YouTube Video URL:', placeholder='YouTube URL',
-                                      label_visibility='collapsed')
+        video_url_inp = st.text_input('', placeholder='YouTube URL')
 
     with col2:
+        st.markdown('#') # Adds empty space
         process_btn = st.button('🗜️Process', key='process_btn', on_click=process_click_callback)
 
     summary_out_txt = st.text_area(label='', key='summary_output', height=400)
