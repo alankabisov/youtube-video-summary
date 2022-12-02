@@ -69,7 +69,8 @@ def get_transcripts(url: str):
     try:
         transcript = transcript_list.find_manually_created_transcript(['en'])
     except NoTranscriptFound as e:
-        st.info('No manual transcripts were found, trying to load generated ones...')
+        # Doesn't work on HuggingFace v1.1.0 version
+        # st.info('No manual transcripts were found, trying to load generated ones...')
         transcript = transcript_list.find_generated_transcript(['en'])
 
     subtitles = transcript.fetch()
