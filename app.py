@@ -154,7 +154,7 @@ if __name__ == "__main__":
     # State of processing
     is_processing = False
 
-    st.title('YouTube Video Summary 📃')
+    st.title('YouTube Video Summary 📝')
     st.markdown('Creates summary for given YouTube video URL based on transcripts.')
     st.code('https://www.youtube.com/watch?v=1wkPMUZ9vX4')
     st.code('https://youtu.be/zb9l63Nm9zU')
